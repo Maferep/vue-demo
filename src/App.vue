@@ -19,6 +19,9 @@ import TheWelcome from './components/TheWelcome.vue'
 </template>
 
 <style scoped>
+img {
+  border-radius: 50%;
+}
 header {
   line-height: 1.5;
 }
@@ -31,6 +34,7 @@ header {
 @media (min-width: 1024px) {
   header {
     display: flex;
+    flex-direction: column;
     place-items: center;
     padding-right: calc(var(--section-gap) / 3);
   }
@@ -40,6 +44,7 @@ header {
   }
 
   header .wrapper {
+    padding-top: 2rem;
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
