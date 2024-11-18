@@ -21,6 +21,7 @@ import ArticlePreviews from './components/ArticlePreviews.vue'
 <style scoped>
 img {
   border-radius: 50%;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.511);
 }
 header {
   line-height: 1.5;
