@@ -21,7 +21,7 @@ import SupportIcon from './icons/IconSupport.vue'
       <DocumentationIcon />
     </template>
     <template #heading>Simple and dangerous: Arc's code execution vulnerability</template>
-    A hot new browser alternative based on Chromium allowed users to save custom JS code, but careless use of DaaS tools led to a critical attack vector for their users.
+    A hot new browser alternative based on Chromium allowed users to save custom JS code, but a subtle error in their BaaS tooling led to a critical attack vector for their users.
     
   </WelcomeItem>
 
