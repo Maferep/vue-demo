@@ -1,7 +1,7 @@
 @import './base.css';
 
 #app {
-  background-color: rgba(22, 24, 23, 0.934);
+  background-color: rgba(236, 224, 201, 0.934);
   max-width: 1280px;
   margin: 4rem;
   padding: 4rem;
@@ -12,9 +12,19 @@
 a,
 .green {
   text-decoration: none;
-  color: rgb(195, 221, 218);
+  color: rgb(39, 114, 85);
   transition: 0.4s;
   padding: 3px;
+}
+
+@media (prefers-color-scheme: dark) {
+  #app {
+    background-color: rgba(22, 24, 23, 0.934);
+  }
+
+  .green {
+    color: rgb(195, 221, 218);
+  }
 }
 
 @media (hover: hover) {

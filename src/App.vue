@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import ArticlePreviews from './components/ArticlePreviews.vue'
 </script>
 
 <template>
@@ -14,7 +14,7 @@ import TheWelcome from './components/TheWelcome.vue'
   </header>
 
   <main>
-    <TheWelcome />
+    <ArticlePreviews />
   </main>
 </template>
 

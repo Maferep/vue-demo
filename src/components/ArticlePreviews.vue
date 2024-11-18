@@ -12,7 +12,7 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Handlebars vs. JS</template>
+    <template #heading>Handlebars vs. EJS</template>
     I break down my impressions two popular templating tools, cutting through their diverging core philosophies.
   </WelcomeItem>
 
