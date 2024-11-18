@@ -57,13 +57,15 @@
   margin: 0;
   font-weight: normal;
 }
-
-body {
+/* https://archive.org/download/clevelandart-1988.23.2.8-flowers-of-a-hundred/1988.23.2.8_full.jpg */
+body { 
   min-height: 100vh;
   color: var(--color-text);
   background: var(--color-background);
-  background-image: url("https://archive.org/download/clevelandart-1988.23.2.8-flowers-of-a-hundred/1988.23.2.8_full.jpg");
+  background-image: url("https://i0.wp.com/bentleyartpublishing.com/wp-content/uploads/2020/09/54880.jpg?fit=1200%2C800&ssl=1");
   background-size: cover;
+  backdrop-filter: blur(2px);
+  backdrop-filter: sepia(70%);
   transition:
     color 0.5s,
     background-color 0.5s;

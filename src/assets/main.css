@@ -1,16 +1,18 @@
 @import './base.css';
 
 #app {
+  background-color: rgba(22, 24, 23, 0.934);
   max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  margin: 4rem;
+  padding: 4rem;
   font-weight: normal;
+  border-radius: 4rem;
 }
 
 a,
 .green {
   text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
+  color: rgb(195, 221, 218);
   transition: 0.4s;
   padding: 3px;
 }
@@ -30,6 +32,6 @@ a,
   #app {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    padding: 0 2rem;
+    padding: 4rem;
   }
 }
