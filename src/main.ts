@@ -11,7 +11,7 @@ import orm from './components/posts/orm.vue'
 const routes = [
   { path: '/', component: Index },
   { path: '/orm', component: orm },
-  { path: '/handlebars', component: orm },
+  { path: '/ejs', component: orm },
   { path: '/arc', component: orm },
 ]
 
