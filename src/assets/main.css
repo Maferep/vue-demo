@@ -23,8 +23,8 @@ a,
     background-color: rgba(22, 24, 23, 0.934);
   }
 
-  .green {
-    color: rgb(200, 243, 233);
+  a, .green {
+    color: rgb(94, 179, 146);
   }
 }
 

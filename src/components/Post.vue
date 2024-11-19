@@ -41,7 +41,6 @@ h1 {
 }
 
 .article-content{
-  color: purple;
   padding-bottom: 10em;
 }
 
