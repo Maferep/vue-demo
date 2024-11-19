@@ -12,7 +12,9 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Handlebars vs. EJS</template>
+    <template #heading>
+      <RouterLink to="/ejs">Handlebars vs. EJS</RouterLink>
+    </template>
     I break down my impressions two popular templating tools, cutting through their diverging core philosophies.
   </PostPreview>
 
@@ -20,7 +22,9 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Simple and dangerous: Arc's code execution vulnerability</template>
+    <template #heading>
+      <RouterLink to="/arc">Simple and dangerous: Arc's code execution vulnerability</RouterLink>
+    </template>
     A hot new browser alternative based on Chromium allowed users to save custom JS code, but a subtle error in their BaaS tooling led to a critical attack vector for their users.
     
   </PostPreview>
@@ -29,7 +33,9 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>My first experience with ORM (Object Relational Mapping)</template>
+    <template #heading>
+      <RouterLink to="/orm">My first experience with ORM (Object Relational Mapping)</RouterLink>
+    </template>
 
     
   </PostPreview>
